@@ -1,0 +1,87 @@
+/* src/pages/ParcelasPage.css */
+
+.parcelas-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.parcela-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.parcela-form select,
+.parcela-form input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.parcela-form button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.parcela-form button:hover {
+    background-color: #45a049;
+}
+
+.parcelas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.parcelas-table th, .parcelas-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.parcelas-table th {
+    background-color: #f2f2f2;
+}
+
+.parcelas-table button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.parcelas-table button:first-of-type {
+    background-color: #4CAF50;
+}
+
+.parcelas-table button:last-of-type {
+    background-color: #f44336;
+    margin-left: 5px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 12px;
+    background-color: #5a965a;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background-color: #4a8a4a;
+}

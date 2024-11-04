@@ -1,0 +1,76 @@
+/* src/pages/UsuariosPage.css */
+
+.usuarios-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.usuario-form {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.usuario-form input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.usuario-form button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.usuarios-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.usuarios-table th, .usuarios-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.usuarios-table th {
+    background-color: #f2f2f2;
+}
+
+.usuarios-table button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.usuarios-table button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.usuarios-table button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px; /* Agregado para separación */
+    padding: 8px 12px;
+    background-color: #5a965a;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background-color: #4a8a4a;
+}
+
